@@ -101,9 +101,9 @@ public class App {
         int wayTimeOffer1 = 2;
         int wayTimeOffer2 = 5;
         if (wayTimeOffer1 * 2 > wayTimeOffer2 * 2 && monthlyCompensationOffer1 > monthlyCompensationOffer2){
-            System.out.println("1");
+            System.out.println("лучше выбрать первый офер (1)");
         } else if (wayTimeOffer1 * 2 < wayTimeOffer2 * 2 && monthlyCompensationOffer1 < monthlyCompensationOffer2) {
-            System.out.println("2");
+            System.out.println("лучше выбрать второй офер (2)");
         }
 
         System.out.println("///////////////////////////////////////////////////////////");
